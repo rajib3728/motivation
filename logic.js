@@ -1,3 +1,4 @@
+document.getElementById("audio1").volume = 0.13;
 function openNav() {
   document.getElementById("mySidenav").style.width = "250px";
 }

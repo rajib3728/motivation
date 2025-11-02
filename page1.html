@@ -9,6 +9,7 @@
     <title>mOtivation</title>
 </head>
 <body>
+    <audio src="song1.mp3" id="audio1" controls hidden autoplay></audio>
     <center>
          <button onclick="history.back()"  ><i class="fa fa-arrow-left"></i> Back</button>
         
@@ -26,13 +27,17 @@
     <br>
      <label class="txt2">Choose voice:</label>
            <select id="voc" class="txt2">
+              <option value="fv">Female Voice</option>
              <option value="mv">Male Voice</option>
-             <option value="fv">Female Voice</option>
+           
            </select>
     <br>
     <br>
     <button onclick="fun3()">Start Motivation</button>
      </div>
+
+     <h3 class="txt2"> About</h3>
+     <p class="txt2"> I believe that if i train our brain with repetative motivative word then we fill motivated.</p>
     </center>
 </body>
 <script src="logic.js"></script>
