@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="logo.png">
+     <link rel="stylesheet" href="styles2.css">
+         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>mOtivation</title>
+</head>
+<body>
+    <center>
+         <button onclick="history.back()"  ><i class="fa fa-arrow-left"></i> Back</button>
+        
+         
+        <div class="container2">
+             <img src="logo1.png" alt="Motivation Gif" class="img1">
+             <br>
+            <br>
+    <label class="txt2">*Select Frequency:</label>
+     <input type="range" id="freqRange" min="10" max="50" step="10" value="10" />
+     <p id="txt1" class="txt2"></p>
+    <label class="txt2">*Enter Your Message:</label>
+    <textarea id="txa" required></textarea>
+    <br>
+    <br>
+     <label class="txt2">Choose voice:</label>
+           <select id="voc" class="txt2">
+             <option value="mv">Male Voice</option>
+             <option value="fv">Female Voice</option>
+           </select>
+    <br>
+    <br>
+    <button onclick="fun3()">Start Motivation</button>
+     </div>
+    </center>
+</body>
+<script src="logic.js"></script>
+</html>
